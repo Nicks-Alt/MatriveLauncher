@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Matrive Launcher.exe" version="1.0.0.0" publicKeyToken="171fc97e7d5784ae" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="matrive.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Matrive Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Matrive Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Matrive Launcher.exe" size="1356136">
+      <assemblyIdentity name="Matrive Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dFirWUT1fHpScuC7irMcw8yAciiCOYKZGqQ0PTc/p3M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Matrive Launcher.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="matrive.ico" size="37361">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>psDGN+CL9+8y2Wr/uwSfbn1+2HZcIQzcmIpOrIQW9cc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Nick" issuerKeyHash="a309339581054b12fb1526316295d3119c38e876" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QAzJaia6aHQXWn2fvR8bilhVluwYlBmIvmdkA/hczEM=</DigestValue></Reference></SignedInfo><SignatureValue>tIek3BOFOurXC06fdhlzcfhU62vxlhERAYv9q8sDe0tu8ti135dCMg/fZtL+/zn4hiC7IL0LMyx03K23qZ3fCgnQTL2FgFc/VB7G1h0Y8tnSVmXFQEQJGv1nmIw5Z4HVvgv03QyHojWhlwQpgbLWz4j3zDE3ndZcb/aX4RrVpo9+uO63Xkqm7TQW541Z49EbDgOjNNNPpI1xddC/lXzxLz+sdbeQSbHOQEH/Ky+HPn7vJhew0gLQ5LpBT1LYzyYjhXn86Z7sd1ZqRZ6YHxkhnWGvWVrjKmUjwcgk0TEU6MCPMW9rq0sEmE/JiTQFGwC4CAepCnSpF0Ypq1Qc164oiQ==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v1OIcOKdZ130ECFpDR515UTYT0d+eFLTz99xxOpi7x7dCZLlj9tOk0m8/qMWJ4ziBM9JGIPCknZcry58dbJA/loDi4hZutObckfibVtIwzoOM8WiwcFRL7xL9O2AM3PtpVr3mfSEegjg/efjaNiBIELVCjFdx/YoNfyOlftKNxk1/R6oOL32LsQ5YxFBUMnRVvBhq2T9vg46mEfAzeQL5VSj+2uZZ9nlOf0K8xK8j6jEeGDVZrKocwv4jxyNPedB2rAvddC1EsyXQv/btn4LJLsrXIB3QWIXKKCitkVZ+OGCeNoV1gHsksR3Xm0XSKHh5BmQD+TKP6Qufz2Lxn4yvQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="43cc5cf8036467be88199418ec9655588a1b1fbd9f7d5a177468ba266ac90c40" Description="" Url=""><as:assemblyIdentity name="Matrive Launcher.exe" version="1.0.0.0" publicKeyToken="171fc97e7d5784ae" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Nick</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5C7FrCHfDMZ4a8VhTo/VxZmRyrW1b+OMRZOdtuC38bQ=</DigestValue></Reference></SignedInfo><SignatureValue>M5JdOATLLKBHfJdqZG4YPKJA8tB5Ka4O8EgcuPWSWLaARKMYn965BmTXCOQ76wNE4vXteQaOZeu0kgdCES7/mVZqU9GXzybg2sINCFSKTxBQFHBvHajmPuDdQ5xzQTOX+8Dx0DXZvb3EpIKJtz1vGrHEZcXweAUxSEoIZhaQPjUfzw78yIRiMA1Z6PE65mIozpWKYvSvOZyjUJSxBS/60pxkq0rl6AKp/GPAhVamU84gxNQ+wpkv0GVsHc9NqRMJslXIX0gsnihvxS6Mi4RAgDLIYh9IfyE8bOXUid8XQiW4pxAuvEOFWupBiscwJ6+Og+cbGkRWzfp+EySnPVkVyg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v1OIcOKdZ130ECFpDR515UTYT0d+eFLTz99xxOpi7x7dCZLlj9tOk0m8/qMWJ4ziBM9JGIPCknZcry58dbJA/loDi4hZutObckfibVtIwzoOM8WiwcFRL7xL9O2AM3PtpVr3mfSEegjg/efjaNiBIELVCjFdx/YoNfyOlftKNxk1/R6oOL32LsQ5YxFBUMnRVvBhq2T9vg46mEfAzeQL5VSj+2uZZ9nlOf0K8xK8j6jEeGDVZrKocwv4jxyNPedB2rAvddC1EsyXQv/btn4LJLsrXIB3QWIXKKCitkVZ+OGCeNoV1gHsksR3Xm0XSKHh5BmQD+TKP6Qufz2Lxn4yvQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIC/DCCAeSgAwIBAgIQeugrfpde4J5Hc0GsuYjD4zANBgkqhkiG9w0BAQsFADAPMQ0wCwYDVQQDDAROaWNrMB4XDTE5MDYyNTE1MjY0MloXDTIyMDMyNTE1MzY0MlowDzENMAsGA1UEAwwETmljazCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL9TiHDinWdd9BAhaQ0edeVE2E9HfnhS08/fccTqYu8e3QmS5Y/bTpNJvP6jFieM4gTPSRiDwpJ2XK8ufHWyQP5aA4uIWbrTm3JH4m1bSMM6DjPFosHBUS+8S/TtgDNz7aVa95n0hHoI4P3n42jYgSBC1QoxXcf2KDX8jpX7SjcZNf0eqDi99i7EOWMRQVDJ0VbwYatk/b4OOphHwM3kC+VUo/trmWfZ5Tn9CvMSvI+oxHhg1WayqHML+I8cjT3nQdqwL3XQtRLMl0L/27Z+CyS7K1yAd0FiFyigorZFWfjhgnjaFdYB7JLEd15tF0ih4eQZkA/kyj+kLn89i8Z+Mr0CAwEAAaNUMFIwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFKMJM5WBBUsS+xUmMWKV0xGcOOh2MA0GCSqGSIb3DQEBCwUAA4IBAQC8ky31KHba/LrJLBOnOyy4I2+18ynlMTKFZSUImsyFoCQqsv8gTtVTzzHPMo4GqhaQ4ixLzz+bo5o0Xh6izIThUdpe96fVA8KoTNsNN2MrYfkHg/Whpu3AN/UcQ3F2G23SqpXAA10KT7nbIoj/o5wz9Gfz+xrAVtS5jERV8jjzdV77jNxBMGXTFegX4BuGnP3G/ya8E86nY1sOaqVHkgHWXYUlPXEAek4Fp8xP2j/PtrJq9+Bf6CjVjHJX1O1hh0jQxbNwjRgKOXpu/0nOniC8rD0a9+NfDCol4LCmBJtPlrplLLVQstIgL2ud66bc8DUSRzxzSbWMTaOf2DtA3VYV</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
