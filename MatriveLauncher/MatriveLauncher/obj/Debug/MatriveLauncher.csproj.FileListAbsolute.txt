@@ -1,19 +1,19 @@
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.csprojAssemblyReference.cache
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.exe.config
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.exe.manifest
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.application
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.exe
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.pdb
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\DiscordRPC.xml
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Newtonsoft.Json.xml
 D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.frmLauncher.resources
 D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.Properties.Resources.resources
 D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.csproj.GenerateResource.cache
 D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.csproj.CoreCompileInputs.cache
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\DiscordRPC.xml
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Newtonsoft.Json.xml
 D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.csproj.Fody.CopyLocal.cache
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.csproj.CopyComplete
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.exe.config
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.exe
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.pdb
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\Matrive Launcher.exe
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\Matrive Launcher.pdb
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.exe.manifest
-D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\bin\Debug\Matrive Launcher.application
 D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\Matrive Launcher.TrustInfo.xml
 D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\Matrive Launcher.exe.manifest
 D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\Matrive Launcher.application
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.csproj.CopyComplete
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\Matrive Launcher.exe
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\Matrive Launcher.pdb
+D:\Programming\repos\MatriveLauncher\MatriveLauncher\MatriveLauncher\obj\Debug\MatriveLauncher.csprojAssemblyReference.cache

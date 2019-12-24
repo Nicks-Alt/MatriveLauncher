@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Matrive Launcher.exe" size="1356136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Matrive Launcher.exe" size="1357160">
       <assemblyIdentity name="Matrive Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dFirWUT1fHpScuC7irMcw8yAciiCOYKZGqQ0PTc/p3M=</dsig:DigestValue>
+        <dsig:DigestValue>twhErJe9kri/eAvXoLFg+gOZIV9OK9DDX82hsqd5tjI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

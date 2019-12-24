@@ -124,8 +124,7 @@
             // 
             // tmrPlayerCountRefresh
             // 
-            this.tmrPlayerCountRefresh.Enabled = true;
-            this.tmrPlayerCountRefresh.Interval = 1000;
+            this.tmrPlayerCountRefresh.Interval = 5000;
             this.tmrPlayerCountRefresh.Tick += new System.EventHandler(this.TmrPlayerCountRefresh_Tick);
             // 
             // pictureBox2
@@ -156,7 +155,6 @@
             // 
             // tmrCurrentServerQuery
             // 
-            this.tmrCurrentServerQuery.Enabled = true;
             this.tmrCurrentServerQuery.Interval = 60000;
             this.tmrCurrentServerQuery.Tick += new System.EventHandler(this.TmrCurrentServerQuery_Tick);
             // 
